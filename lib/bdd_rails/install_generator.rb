@@ -20,6 +20,7 @@ module BddRails
         gem 'rspec-rails'
         gem 'vcr'
         gem 'webmock'
+        gem 'shoulda-matchers'
       end
 
       bundle_command :install
